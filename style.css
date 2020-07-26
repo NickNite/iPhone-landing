@@ -1,0 +1,376 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    width: 1920px;
+}
+a{
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+}
+header{
+    height: 1025px;
+}
+.main{
+    width: 100%;
+    background-image: url('./img/background-top.png');
+    background-repeat: no-repeat;
+    color: white;
+    z-index: 1;
+}
+.navigation, .menu{
+    display: flex;
+justify-content: space-between;
+}
+.menu{
+    align-items: center;
+    height: 40px;
+    font-size: 15px;
+    margin-right: 250px;
+}
+.menu, .logo{
+    margin-top: 34px;
+    margin-left: 250px;
+}
+
+.menu span{
+    line-height: 30px;
+}
+#menu span{
+    margin-right: 39px;
+}
+#autorized{
+    border-left: 1px solid #f2f2f2;
+}
+#autorized span{
+    margin-left: 39px;
+}
+
+
+
+
+.infoApp{
+    background-image: url('./img/Fingers.png');
+    background-repeat: no-repeat;
+    background-position: 1120px top;
+    height: 100%;
+    z-index: 2;
+    margin-top: -15px;
+}
+.topText{
+    width: 700px;
+    padding: 170px 0px 0px 300px;
+}
+.topText h1{
+    margin-bottom: 0px;
+}
+.topText p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+}
+.topButtons{
+    margin-top: 40px;
+}
+.topButtons span{
+    padding: 12px 60px;
+    border-radius: 5px;
+    border:1px solid #ffffff;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.topButtons span:hover{
+    background-color: white;
+    color: #ee8c19;
+    cursor: pointer;
+}
+
+
+
+.btnDown{
+    position: relative;
+text-align: center;
+margin-top: 240px;
+}
+.btnDown img, .menu span:hover{
+    cursor: pointer;
+}
+
+
+
+.instruction{
+    background-image: url('./img/bg-white.png');
+    margin-top: -260px;
+}
+.instruction h1{
+    color: black;
+    text-align: center;
+    padding-top: 125px;
+    font-weight: 800;
+}
+.steps{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.step1, .step2, .step3, .step4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.step1{
+    left: 250px;
+}
+.step2{
+    right: -350px;
+    top: 100px;
+}
+.step3{
+left: 300px;
+top: -150px;
+}
+.step4{
+    right: -130px;
+    top: 230px;
+}
+#arrow1{
+    position: relative;
+    left: 15px;
+    top: 110px;
+}
+#arrow2{
+    position: relative;
+    left: 550px;
+    top: 25px;
+}
+#arrow3{
+    position: relative;
+    left: 230px;
+    top: -30px;
+}
+.bottomText{
+    z-index: 5;
+    text-align: center;
+    padding: 250px 0 80px 0;
+}
+
+
+
+
+
+footer{
+    background-image: url(./img/bg-bottom.png);
+    background-repeat: no-repeat;
+}
+.footerTextTop{
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 0 0 250px;
+}
+.footerTextTop h1{
+    margin-bottom: -8px;
+    padding-right: 15px;
+}
+.footerTextTop span{
+    font-size: 15px;
+}
+.footerPromo{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    color: black
+}
+.promoLeft, .promoRight{
+    background-color: white;
+    margin-left: 20px;
+    min-height: 820px;
+    border-radius: 5px;
+}
+.promoLeft{
+    width: 460px;
+}
+.promoRight{
+    width: 940px;
+}
+
+.promoLeftTop, .promoRightTop{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 80px;
+border-bottom: 1px solid #ff9933;
+padding-bottom: 10px;
+}
+
+.leftTopImg, .rightTopImg{
+    margin-left: 40px;
+}
+.leftTopText, .rightTopText{
+    margin-left: 30px;
+}
+.leftTopText p, .rightTopText p, .promoLeftMid p{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+}
+.leftTopText h2, .rightTopText h2, .promoLeftMid h2{
+    font-size: 35px;
+    padding: 0px;
+    margin-top: 5px;
+}
+.promoLeftMid, .promoRightMid{
+    border-bottom: 1px solid #ff9933;
+    text-align: center;
+    height: 170px;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.promoLeftMid h2{
+    margin-bottom: 0px;
+}
+.promoInfo{
+    color:#4d4d4d;
+    margin: 40px 40px;
+}
+.promoInfo li{
+    list-style-image: url(./img/check.png);
+    margin: 20px 0px;
+    padding-left: 20px;
+}
+.promoBottom{
+    margin: 100px 0 0 55px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+.promoLinks{
+    margin-top: 25px;
+}
+.promoLinks a{
+    margin-right: 15px;
+}
+
+
+
+.promoRightMid{
+    flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+}
+.rightMidInfo{
+    margin-right: 50px;
+    max-width: 185px;
+    margin-top: 25px;
+}
+.rightMidInfo p{
+    font-size: 26px;
+    font-weight: bold;
+}
+.premium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 27px;
+    margin-right: 70px;
+}
+.premium select{
+    width: 130px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 14px 0;
+}
+.price span{
+    color: #339900;
+    font-size: 14px;
+    font-weight: 600;
+}
+.price strong{
+    font-size: 24px;
+}
+.orangeBasic{
+    font-weight: bold;
+    font-size: 20px;
+    color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom,#ff6666, #ff9933 );
+}
+.orangePremium{
+    font-weight: bold;
+    font-size: 20px;
+    color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom,#ff9900,#ff6600);
+}
+.table{
+    margin: 30px 0px 0 50px;
+    color: #666666;
+}
+ td{
+    padding: 10px 0;
+}
+td img{
+    margin-left: 215px;
+}
+
+.promoRightButton{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.promoRightButton button{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    background: url(./img/btn-logowanie.png);
+    border: none;
+    color: #cc6600;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 25px;
+}
+.promoRightButton button:hover{
+    background-image: url(./img/btn-rejestr.png);
+    color: white;
+}
+
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1000;
+}
+.modal .modalContent {
+    margin: 5% auto;
+    padding: 20px;
+    z-index: 99999;
+}
+.modal .modalContent .closeModalWindow {
+    position: relative;
+    top: -60px;
+    right: -10px;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
